@@ -158,7 +158,7 @@ def parse_options():
             split_args = True
         if o in ('-t', '--total'):
             only_total = True
-        if o in ('-d', 'descending'):
+        if o in ('-d', '--descending'):
             descending = True
         if o in ('-h', '--help'):
             sys.stdout.write(help())
